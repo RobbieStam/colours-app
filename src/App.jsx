@@ -31,7 +31,8 @@ const App = () => {
         <Route path="/colours" element={<Pages.ColourList colours={colours} setColours={setColours} />} />
         <Route path="/new" element={<Pages.ColourForm colours={colours} setColours={setColours} />} />
         </Route>
-        <Route path="/colours/:colour" element={<Pages.ColourItem />} />
+        <Route path="/colours/:colour" element={<Pages.ColourItem colours={colours} setColours={setColours} />} />
+        
         
 
       </Routes>
