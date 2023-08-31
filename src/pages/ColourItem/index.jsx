@@ -13,7 +13,7 @@ const ColourItem = () => {
       className='back-btn'
       onClick={() => navigate(-1)}
       >Back to colours</button>
-    <div className="colour-item" style={{backgroundColor: `${name}`, height: "10000px", }}>{name.toUpperCase()}</div>
+    <div className="colour-item" style={{backgroundColor: `${name}`, height: "10000px", }}><h2 className="colour-title">{name.toUpperCase()}</h2></div>
     </>
   )
 }

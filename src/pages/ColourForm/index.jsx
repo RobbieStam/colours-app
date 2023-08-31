@@ -18,7 +18,7 @@ const ColourForm = (props) => {
     <form 
       onSubmit={handleSubmit}
     >
-      <label htmlFor="task" style={{ marginRight: "10px"}}>Task</label>
+      <label htmlFor="task" style={{ marginRight: "10px", color: "white", fontSize: "6vh"}}>Add a Colour:</label>
       <input type="text"
         className='colour-input'
         value={inputText}

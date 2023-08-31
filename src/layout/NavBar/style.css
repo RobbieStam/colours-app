@@ -22,6 +22,7 @@ nav {
 
 .nav-links a {
   color: white;
+  font-size: 3vh;
   text-decoration: none;
 }
 
@@ -30,5 +31,5 @@ nav {
   text-decoration: underline;
   text-decoration-thickness: 3px;
   text-underline-position: under;
-  text-decoration-color: blue;
+  text-decoration-color: aquamarine;
 }

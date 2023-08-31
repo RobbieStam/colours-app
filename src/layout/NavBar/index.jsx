@@ -6,7 +6,7 @@ const NavBar = () => {
 
   let activeStyle = {
     textDecoration: "underline",
-    color: "blue"
+    color: "aquamarine"
   }
 
   const navA = ({ isActive }) => (isActive ? activeStyle : undefined)
