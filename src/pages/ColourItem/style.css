@@ -1,0 +1,17 @@
+.colour-item {
+  text-align: center;
+  font-size: 200px;
+  padding-top: 10vh;
+}
+
+.back-btn {
+  position: Absolute;
+  margin: 20px;
+  background-color: white;
+  padding: 2vh;
+  border-radius: 2vh;
+}
+
+.back-btn:hover {
+  cursor: pointer;
+}
